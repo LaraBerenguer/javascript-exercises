@@ -27,13 +27,13 @@ const greet = () => {
 greet();
 
 //ex4
-const console = (num) => {
+const printConsole = (num) => {
     console.log(num);
 }
 
 const printNumbers2 = (array) => {
     for(i=0; i<array.length; i++) {        
-        console(array[i]);
+        printConsole(array[i]);
     }
 }
 
@@ -46,7 +46,6 @@ const myFunction = () => {
     console.log("Hola!");
 }
 setTimeout(myFunction, 3000);
-myFunction();
 
 
 
