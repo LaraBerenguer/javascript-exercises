@@ -30,13 +30,9 @@ console.log(obj1, obj2);
 //ex4
 let people = ["Pepe", "Lara", "Juan", "Luis", "Anna"];
 
-const variables = (a, b, ...c) => {
-    console.log("VarA: ", a)
-    console.log("VarB: ", b)
-    console.log("VarC: ", c)
-}
+const [a, b, ...c] = people;
 
-variables(...people);
+console.log(c);
 
 //ex5
 const tomate = (arg1, arg2, arg3) => {
